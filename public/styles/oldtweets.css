@@ -1,0 +1,125 @@
+/* #tweets-container {
+    margin-top: 30px;
+} */
+
+article.tweet {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(143, 142, 142);
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    opacity: .8;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+article.tweet:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(143, 142, 142);
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    opacity: 1;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+article.tweet:hover header {
+    background-color: rgba(211, 211, 211, 0.336);
+    padding-bottom: 60px;
+    opacity: 1;
+}
+
+article.tweet header {
+    background-color: rgba(211, 211, 211, 0.336);
+    padding-bottom: 60px;
+    opacity: .8;
+}
+
+.tweet header h2 {
+    float: top;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    opacity: .8;
+}
+
+.tweet header .avatar {
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 8px;
+    opacity: .8;
+}
+
+.tweet header .avatar {
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.tweet:hover header .shortName {
+    color: rgb(153, 153, 153);
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    opacity: 1;
+}
+
+.tweet header .shortName {
+    color: rgb(153, 153, 153);
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    opacity: .8;
+}
+
+.tweet div {
+    padding-left: 1em;
+    padding-right: 5px;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    opacity: .8;
+}
+
+.tweet .footer1 .date {
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+article.tweet .footer1 {
+    height: 2em;
+    border-top: 1px rgb(189, 188, 188) solid;
+    /* text-align: left;
+    padding-left: 10px;
+    padding-top: 10px; */
+    font-size: 80%;
+    
+}
+
+article.tweet .footer1 .icons {
+    display: none;
+
+}
+
+article.tweet:hover .footer1 .icons {
+    float: right;
+    width: auto;
+    display: block;
+    padding-right: 20px;
+    padding-top: 15px;
+}
