@@ -11,5 +11,4 @@ $('document').ready(function () {
             this.parentElement.querySelector('.counter').style.color = 'black';             
         }
     });
-
  });

@@ -8,6 +8,7 @@
     background-color: #00a087;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0em 2em;
+    z-index: 500;
 }
 
 #nav-bar .logo {
@@ -21,4 +22,24 @@
     padding: 0 10px;
     line-height: 80px;
     float: left;
+}
+
+#nav-bar input {
+    background-color: rgba(255, 255, 255, 0.678);
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#00a087;
+    padding: 1em;
+    float:  right;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+#nav-bar input:hover {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    color:black;
+    padding: 1em;
+    float:  right;
+    margin-top: 15px;
+    border-radius: 8px;
 }

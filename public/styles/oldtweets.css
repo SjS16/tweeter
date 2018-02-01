@@ -44,8 +44,8 @@ article.tweet header {
 .tweet header h2 {
     float: top;
     float: left;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
     opacity: .8;
 }
 
@@ -72,16 +72,18 @@ article.tweet header {
 .tweet:hover header .shortName {
     color: rgb(153, 153, 153);
     float: right;
-    padding-left: 1em;
+    padding-left: .5em;
     padding-right: 1em;
+    padding-top: .5em;
     opacity: 1;
 }
 
 .tweet header .shortName {
     color: rgb(153, 153, 153);
     float: right;
-    padding-left: 1em;
+    padding-left: .5em;
     padding-right: 1em;
+    padding-top: .5em;
     opacity: .8;
 }
 
@@ -91,7 +93,7 @@ article.tweet header {
     background-color: white;
     width: 100%;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 3px;
     opacity: .8;
 }
 
