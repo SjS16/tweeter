@@ -18,17 +18,12 @@ $('.new-tweet form').on('submit', function (event) {
             return;
         }
 
-    // $('.new-tweet .textarea').val("");
-    // $('.new-tweet .counter').val("140");
-
     console.log(data)
         $.post('/tweets', {"text":data}).done(function () {
             loadTweets();
-
             $('.new-tweet .textarea').val("");
-
             $('.new-tweet .counter').text("140");
-            })
+        })
 })
 
 function loadTweets() {

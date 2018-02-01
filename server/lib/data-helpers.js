@@ -8,7 +8,7 @@ module.exports = function makeDataHelpers(db) {
   return {
 
     // Saves a tweet to `db`
-    saveTweet: function(newTweet, callback) {
+    saveTweet: function (newTweet, callback) {
       simulateDelay(() => {
         db.collection("tweeter").insertOne(newTweet);
         callback(null, true);
@@ -17,10 +17,10 @@ module.exports = function makeDataHelpers(db) {
 
     // Get all tweets in `db`, sorted by newest first
 
-      getTweets: function (callback) {
-        db.collection("tweeter").find().toArray(callback);
-      }
-    
+    getTweets: function (callback) {
+      db.collection("tweeter").find().toArray(callback);
+    }
+
 
   };
 }
