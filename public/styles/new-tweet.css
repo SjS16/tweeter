@@ -9,6 +9,7 @@
     padding-bottom: 1em;
     width: 80%;
     margin: auto;
+    display: block;
 }
 
 .new-tweet .textarea {

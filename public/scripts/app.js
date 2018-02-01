@@ -17,9 +17,14 @@ $('.new-tweet form').on('submit', function (event) {
             alert("Your tweet is too long!")
             return;
         }
+
+    $('.new-tweet .textarea').val("");
+
     console.log(data)
         $.post('/tweets', {"text":data}).done(function () {
             loadTweets();
+
+            $('.new-tweet form').val("");
             })
 })
 
@@ -32,6 +37,11 @@ function loadTweets() {
             }
     })
 };  
+
+$("#formButton").click(function () {
+    $(".new-tweet").slideToggle();
+    $(".textarea").focus();
+});
 
 function createTweetElement(tweet) {
     let $tweet = $('<article>').addClass('tweet');

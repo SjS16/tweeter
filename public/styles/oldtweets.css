@@ -95,6 +95,7 @@ article.tweet header {
     text-align: left;
     padding-top: 3px;
     opacity: .8;
+    word-wrap: break-word;
 }
 
 .tweet .footer1 .date {
