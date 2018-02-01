@@ -1,4 +1,5 @@
 "use strict";
+const MongoClient = require("mongodb").MongoClient;
 
 // Requiring a JSON file automatically parses it and returns the data. These
 // are just example tweets to make it less tedious to style the app initially.
