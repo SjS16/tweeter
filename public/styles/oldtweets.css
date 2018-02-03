@@ -47,6 +47,7 @@ article.tweet header {
     padding-left: .5em;
     padding-right: .5em;
     opacity: .8;
+    
 }
 
 .tweet header .avatar {
@@ -107,22 +108,37 @@ article.tweet header {
 article.tweet .footer1 {
     height: 2em;
     border-top: 1px rgb(189, 188, 188) solid;
-    /* text-align: left;
-    padding-left: 10px;
-    padding-top: 10px; */
+    /* text-align: left; */
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
     font-size: 80%;
     
 }
 
 article.tweet .footer1 .icons {
     display: none;
-
 }
 
 article.tweet:hover .footer1 .icons {
     float: right;
-    width: auto;
+    /* width: auto; */
     display: block;
-    padding-right: 20px;
+    padding-right: 15px;
     padding-top: 15px;
+}
+
+article.tweet:hover .footer1 .heart-button {
+    border: none;
+    padding: 3px;
+    padding-right: 2px;
+}
+
+article.tweet:hover .footer1 .retweet-button {
+    border: none;
+    padding: 3px;
+}
+
+article.tweet:hover .footer1 .flag-button {
+    border: none;
+    padding: 3px;
 }

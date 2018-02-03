@@ -65,12 +65,22 @@ function createTweetElement(tweet) {
     footer.append(date);
     $tweet.append(footer)
     const icons = $('<span>').addClass('icons');
-    const flag = $('<i>').addClass('fa fa-flag').addClass('fa-fw');
+    const flag = $('<button>').addClass('flag-button');
+    const flagFont = $('<i>').addClass('fa fa-flag');
+    flag.append(flagFont);
     icons.append(flag);
-    const retweet = $('<i>').addClass('fa fa-retweet').addClass('fa-fw');
+    const retweet = $('<button>').addClass('retweet-button');
+    const retweetFont = $('<i>').addClass('fa fa-retweet');
+    retweet.append(retweetFont);
     icons.append(retweet);
-    const heart = $('<i>').addClass('fa fa-heart');
+    const heart = $('<button>').addClass('heart-button');
+    const heartFont = $('<i>').addClass('fa fa-heart');
+    heart.append(heartFont);
     icons.append(heart);
+    const form = $('<form>')
+    const likes = $('<span>').addClass('like-counter');
+    likes.append().text(0);
+    icons.append(likes);
     footer.append(icons);
     $tweet.append(footer);
     return $tweet;
